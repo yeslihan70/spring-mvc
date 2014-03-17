@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+
+<properties>
+
+	<comment>Context Default Configuration</comment>
+
+    <!-- JDBC Pool Setting -->
+    <entry key="jdbc.pool.initialSize">1</entry>
+    <entry key="jdbc.pool.maxActive">5</entry>
+    <entry key="jdbc.pool.maxIdle">3</entry>
+    <entry key="jdbc.pool.minIdle">1</entry>
+
+    <!-- DB Instance  -->
+    <entry key="db.driver">org.postgresql.Driver</entry>
+    <entry key="db.app.url">jdbc:postgresql://122.199.145.151:1521/sqisoft_dev</entry>
+    <entry key="db.app.username">sqisoft</entry>
+    <entry key="db.app.password">sqisoft</entry>
+
+</properties>
